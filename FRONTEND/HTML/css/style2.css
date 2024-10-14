@@ -1,0 +1,83 @@
+.screen {
+    background-color: chocolate;
+    width: 100%;
+    height: 100%;
+}
+
+.header_design {
+    width: 100%;
+    height: 15%;
+    background-color: #e4e4e5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_design .logo{
+    width: 10%; 
+    height: 100%;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header_design .title{
+    width: 90%;
+    height: auot;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.screen_design {
+    width: 100%;
+    height: 77%;
+    background-image:url(../images/backgroundscreen1.jpg);
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.screen_design .screen_left {
+    height: 100%;
+    width: 20%;
+    display: grid;
+    place-content: center;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.screen_design .screen_left .table button {
+    width: 100px;
+    background-color: gray;
+    height: 75px;
+    color: white;
+    font-weight: bold;
+}
+
+.screen_design .screen_right {
+    height: 100%;
+    width: 80%;
+    color: #e4e4e5;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.screen_design .screen_right .h1 {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.footer_design {
+    width: 100%;
+    height: auto;
+    background-color: #e4e4e5;
+    text-align: center;
+    justify-content: center;
+    place-content: center;
+    position:relative;
+    display: flex;
+    font-size: medium;
+}
